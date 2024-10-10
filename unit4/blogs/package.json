@@ -1,0 +1,30 @@
+{
+  "name": "pen-and-pixel",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd client && vite\" \"cd server && nodemon server\"",
+    "build": "cd client && vite build",
+    "preview": "cd client && vite preview"
+  },
+  "dependencies": {
+    "@picocss/pico": "^1.5.10",
+    "concurrently": "^8.0.1",
+    "dotenv": "^16.1.0",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "vite": "^4.3.9"
+  }
+}

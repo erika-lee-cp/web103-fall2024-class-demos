@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+
+.app-main {
+  font-family: 'Anonymous Pro', 'Courier New', monospace;
+  padding: 75px;
+}
+
+nav {
+  font-family: inherit;
+}
+
+nav li {
+  font-weight: bold;
+}
+
+:root h1 {
+  font-family: inherit;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+:root h2 {
+  font-family: inherit;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+article {
+  height: 600px;
+  width: 40vw;
+  margin: 10px;
+}
+
+.article-body {
+  height: 300px;
+}
+
+.article-footer {
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+button {
+  width: 150px;
+}
+
+form {
+  margin: 25px;
+}
+
+textarea {
+  height: 200px;
+}
+
+.edit-buttons {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
