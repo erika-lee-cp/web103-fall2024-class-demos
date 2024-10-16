@@ -1,0 +1,18 @@
+{
+  "name": "sql-join-demo",
+  "type": "module",
+  "scripts": {
+    "dev": "cd server && nodemon server",
+    "start": "cd server && node server",
+    "seed-db": "cd server && node scripts/setup.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
+}
