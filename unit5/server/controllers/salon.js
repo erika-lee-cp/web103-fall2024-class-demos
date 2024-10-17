@@ -1,6 +1,7 @@
 import { pool } from '../config/database.js'
 
-// outer join - retrieve the names of all the hair stylists and hair styles, including those
+// outer join - retrieve the names of all the hair stylists and hair styles
+// including stylists that do not have any styles
 const query = `
 SELECT 
     stylists.name AS stylist,
