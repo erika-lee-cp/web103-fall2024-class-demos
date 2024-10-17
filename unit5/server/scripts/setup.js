@@ -12,7 +12,7 @@ const createTables = async () => {
         `;
         await pool.query(dropTablesQuery);
 
-        console.log('recreating tables...');
+        console.log('creating tables...');
         const createStylesQuery = `
             CREATE TABLE IF NOT EXISTS hair_styles (
                 id INT PRIMARY KEY,

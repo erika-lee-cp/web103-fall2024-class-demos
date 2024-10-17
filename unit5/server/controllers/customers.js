@@ -20,12 +20,11 @@ const getCustomerById = async (req, res) => {
 }
 
 // inner join - retrieve all the appointments for a specific customer and include
-// information about the hair stylist for each appointment
+// the time and the hair stylist for each appointment
 const innerJoinQuery = `
 SELECT 
-    appointments.id,
-    stylists.name AS stylist,
-    appointments.date_time
+    appointments.date_time,
+    stylists.name AS stylist
 FROM appointments
 INNER JOIN stylists 
     ON appointments.stylist_id = stylists.id

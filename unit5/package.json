@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "cd server && nodemon server",
-    "start": "cd server && node server",
+    "start": "cd server && nodemon server",
     "seed-db": "cd server && node scripts/setup.js"
   },
   "dependencies": {

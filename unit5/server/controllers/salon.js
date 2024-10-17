@@ -7,11 +7,11 @@ SELECT
     stylists.name AS stylist,
     hair_styles.name AS style 
 FROM stylists 
-JOIN stylists_hair_styles
+LEFT OUTER JOIN stylists_hair_styles
     ON stylists.id = stylists_hair_styles.stylist_id
-JOIN hair_styles 
+LEFT OUTER JOIN hair_styles 
     ON stylists_hair_styles.hair_style_id = hair_styles.id;
-`
+`;
 
 const getSalonOfferings = async (req, res) => {
     try {
