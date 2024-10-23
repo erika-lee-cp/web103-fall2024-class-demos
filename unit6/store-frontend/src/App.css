@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+#root {
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+nav {
+  margin-bottom: 40px;
+}
+
+#root h1, h2, h3 {
+  font-family: inherit;
+}
+
+#root h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+#root button,
+#root [role=button] {
+  width: 200px;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: 600;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#root article {
+  width: 27vw;
+  height: 55vh;
+  margin-top: 0px;
+}
+
+#root article>header {
+  max-height: 100px;
+  margin-bottom: 0px;
+  border-bottom: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+
+#root article>footer {
+  background-color: transparent;
+  border-top: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.product-info {
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-info img {
+  height: 100px;
+  width: 100px;
+}
+
+.product-info p {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.add-product-success {
+  opacity: 0;
+}
+
+.edit-delete-buttons {
+  display: flex;
+  justify-content: space-between;
+}
