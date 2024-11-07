@@ -1,0 +1,75 @@
+.Card {
+    backdrop-filter: blur(2px);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    width:560px;
+    height: 280px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    background-color: rgba(22, 11, 0, 0.507);
+    background-blend-mode: multiply;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+.card-info {
+    padding-top: 0px;
+    width: 100%;
+    backdrop-filter: blur(1px); 
+}
+
+
+.destination {
+    padding-left:30px;
+    font-size: 24px;
+}
+
+.description {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    height: 145px;
+}
+
+.priceBtn {
+    margin-right: 15px;
+    color: white;
+    background-color: rgba(52, 52, 52, 0.612);
+}
+
+.priceBtn:hover {
+    cursor: default;
+}
+
+.daysBtn {
+    margin-right: 15px;
+    color: white;
+    background-color: rgba(52, 52, 52, 0.612);
+}
+
+.daysBtn:hover {
+    cursor: default;
+}
+
+.seeMoreBtn {
+    margin-right: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(38, 163, 217, 0.577);
+}
+
+.moreButton {
+    width: 30px;
+    float:right;
+
+}
+.moreButton:hover {
+    cursor: pointer;
+}

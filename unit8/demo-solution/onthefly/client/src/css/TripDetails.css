@@ -1,0 +1,48 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    
+
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+
+  .flex-container p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+  }
+
+  .right-side {
+    background-size: cover;
+  }
+
+  .addActivityBtn{
+    color: rgb(255, 255, 255);
+    background-color: rgba(38, 163, 217, 0.491);
+  }
+
+  .addActivityBtn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(29, 122, 162, 0.491);
+  }
+
+  .addDestinationBtn{
+    color: rgb(255, 255, 255);
+    background-color: rgba(38, 163, 217, 0.491);
+  }
+
+  .addDestinationBtn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(29, 122, 162, 0.491);
+  }

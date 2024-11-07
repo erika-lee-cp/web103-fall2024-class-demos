@@ -1,0 +1,11 @@
+.DestinationBtn {
+    text-align: center;
+    padding:5;
+    margin-right: 10px;
+    width: 170px;
+}
+
+.DestinationBtn:hover {
+    cursor:default;
+
+}
